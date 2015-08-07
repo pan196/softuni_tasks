@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <link href="htmlForm.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <form>
+                <div class="steps">Step 1: Your details</div>
+                <div class="nameValue"><span class="padProblem">Name</span><input type="text" value="First and last name" /></div> 
+                <div class="nameValue"><span class="padProblem">Email</span><input type="email" value="example@domain.com" /></div>
+                <div class="nameValue"><span class="padProblem">Phone</span><input type="tel" value="eg. +447500000000"></div>
+                <div class="steps">Step 1: Delivery address</div>
+                <div id="textDiv"><span class="padProblem">Adress</span><textarea></textarea></div>
+                <div class="nameValue"><span class="padProblem">Post code</span><input type="number"></div>
+                <div class="nameValue"><span class="padProblem">Country</span><input type="text"></div>
+                <div class="steps">Step 1 Card details</div>
+                <div class="radioValue">
+                <div class="block">Card type</div>
+        
+                            <input type="radio" name="cardType" value="VISA" class="notBlock"><img src="images/visa.jpg">VISA
+                            <input type="radio" name="cardType" value="AmEx" class="notBlock"><img src="images/amex.jpg">AmEx
+                            <input type="radio" name="cardType" value="Mastercard" class="notBlock"><img src="images/mastercard.jpg">Mastercard<br />
+                </div>
+                <div class="nameValue"><span class="padProblem">Card number</span><input type="text"></div>
+                <div class="nameValue"><span class="padProblem">Security code</span><input type="number" /></div>
+                <div class="nameValue"><span class="padProblem">Name on card</span><input type="text" value="exact name as on the card"></div>
+                <button>BUY IT!</button>
+</form>  
+    </body>
+</html>

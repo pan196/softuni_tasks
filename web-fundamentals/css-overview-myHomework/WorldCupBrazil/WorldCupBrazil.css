@@ -1,0 +1,125 @@
+﻿* {
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+
+}
+div{
+    display: inline-block;
+    background-color: green;
+    padding: 10px;
+}
+.circle{
+    width: 30px;
+	height: 30px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    color: white;
+}
+.greenCircle{
+    width: 30px;
+	height: 30px;
+	background: green;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    color: white;
+}
+button{
+    display: block;
+    margin: auto;
+    font-size: 0.7em;
+}
+tr{
+    height: 40px;
+}
+table {
+    border-spacing: 0;
+    border: 2px solid black;
+    border-radius: 13px;
+}
+th, td {
+    border: 1px solid black;
+}
+tr:nth-child(even) {background: #c8c8c8}
+tr:nth-child(odd) {background: #fff}
+#firstCorner {
+    border-top: none;
+    border-left: none;
+    background-color: #f8c711;
+    border-top-left-radius: 10px;
+}
+#secondCorner{
+    border-top: none;
+    border-right: none;
+    background-color: #f8c711;
+    border-top-right-radius: 10px;
+}
+#thirdCorner{
+    border-bottom: none;
+    border-left: none;
+    border-bottom-left-radius: 10px;
+}
+#fourthCorner{
+    border-bottom: none;
+    border-right: none;
+    border-bottom-right-radius: 10px;
+}
+.topNone{
+    border-top: none;
+    background-color: #f8c711;
+}
+.bottomNone{
+    border-bottom: none;
+}
+.leftNone{
+    border-left: none;
+}
+.rightNone{
+    border-right: none;
+}
+.img{
+    width: 15px;
+}
+.firstCol{
+    float: right;
+    margin-right: 3px;
+}
+.secondCol{
+    margin-left: 3px;
+}
+.thirdCol {
+    float: right;
+    margin-right: 3px;
+}
+.fourthCol{
+    margin-left: 3px;
+}
+.center{
+    vertical-align: middle;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+form select{
+    margin: 2px;
+    width: 35px;
+    color: red;
+    background-color: #d0d0d0;
+}
+.greenSelect{
+    color: green;
+    background-color: #fff;
+}
+th{
+    font-weight: 900;
+    font-size: 1.2em;
+    text
+}
+/*#formCol{
+    -moz-appearance: none;
+    width: 18%;
+}*/

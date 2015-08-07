@@ -1,0 +1,121 @@
+﻿body {
+}
+
+#field{
+    width: 56%;
+    height: 310px;
+    border-right: 10px solid green;
+    border-top: 5px dotted yellow;
+    border-left: 5px dashed red;
+    border-bottom: 7px double blue;
+    box-shadow: 12px 12px 7px #211e1e;
+    text-shadow: 12px 12px 7px #211e1e;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2.9em;
+    position: absolute;
+}
+
+#rainbow{
+    width: 80%;
+    display: block;
+    height: 35%;
+    border: 3px solid red;
+    /*-webkit-box-shadow: 0 0 2px 2px yellow;
+    -moz-box-shadow: 0 0 2px 2px yellow;*/
+    box-shadow: 0 0 3px 3px yellow, 
+        0 0 3px 3px green, 
+        0 0 3px 3px blue;
+    border-radius: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    font-size: 0.5em;
+    text-shadow: none;
+    padding-top: 20px;
+}
+
+#spans{
+    margin-top: 25px;
+    position: relative;
+}
+
+span {
+    background-color: #d79121;
+    padding: 0px 15px;
+    box-shadow: 0 0 2px 2px #eaa025, 
+        2px 2px 0 0 #9b6600;
+}
+#small{
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    opacity: 0.8;
+    border-radius: 50%;
+    position:absolute;
+    margin-left: 573px;
+    margin-top: 160px;
+    z-index: 1;
+}
+#borderSmall{
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    opacity: 0.8;
+    border: 2px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 3px;
+    z-index: 2;
+}
+#middle{
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    opacity: 0.8;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 625px;
+    margin-top: 117px;
+    z-index: 1;
+}
+#borderMiddle{
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    opacity: 0.8;
+    border: 2px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 3px;
+    z-index: 2;
+}
+#big{
+    height: 70px;
+    width: 110px;
+    background-color: gray;
+    opacity: 0.8;
+    border-radius: 35px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 50px;
+    z-index: 1;
+}
+#borderBig{
+    height: 60px;
+    width: 100px;
+    background-color: gray;
+    opacity: 0.8;
+    border: 2px dashed white;
+    border-radius: 35px;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 3px;
+    z-index: 2;
+    font-size: 0.55em;
+    font-weight: 900;
+    color: white;
+    text-shadow: none;
+}

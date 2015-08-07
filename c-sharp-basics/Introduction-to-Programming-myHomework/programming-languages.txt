@@ -1,0 +1,17 @@
+C# vs.
+
+1. Java 
+Both languages are statically typed with class-based object orientation. In Java, compound types are synonymous with reference types; methods cannot be defined for a type unless it is also a class reference type. In C# the concepts of encapsulation and methods have been decoupled from the reference requirement so that a type can support methods and encapsulation without being a reference type.
+
+2. C 
+An older programming language that is described as Hands-on. As the programmer you must tell the program to do everything. Also this language will let you do almost anything. It does not support object orriented code. Thus no classes. 
+
+3. C++ 
+An extention language of C. In C code ++ means increment 1. Thus C++ is better than C. It allows for highly controlled object orriented code. Once again a very hands on language that goes into MUCH detail.C# is full object orriented code resembling the style of C/C++ code. This is really closer to JAVA. C# is the latest version of the C style languages and is very good for developing web applications too.
+
+
+4. JavaScript
+JavaScript (JS) is a dynamic computer programming language. It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed. You can write client side C# via Silverlight if you make people install a plugin, but C# is using for server side more frequently.So JS is better for front-end developing.
+
+5. PHP
+C# 5.0 is the latest version which is best for web development. C# (pronounced see sharp) is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines. On the other hand PHP is a server side scripting language that is used for creating dynamic pages. The advantage of C# is that you can build native Windows desktop programs as well as build sites. PHP is a specialized language.

@@ -1,0 +1,86 @@
+﻿
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+}
+
+footer{
+    color: white;
+    background-color: #234465;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    width: 100%;
+}
+footer h5{
+    color: orange;
+}
+div{
+    background-color: #234465;
+}
+
+img{
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -ms-transition: bopacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+img:hover{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+button{
+    float: none;
+    display: inline;
+    width: 180px; 
+    margin-top: 10px !important;
+    border: 2px solid orange;
+    background-color:  #234465;
+    height: 45px;        
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -ms-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+#buttons{
+    float: none;
+    margin-top: 5px;
+}
+button:hover{
+    background-color: orange;
+}
+.hidden{
+    visibility: hidden;
+}
+#none{
+    display: none;
+}
+#fb-like-box{
+    margin-top: 10px !important;
+}
+
+li{
+    list-style-type: none;
+
+}
+ul{    
+    padding-left: 0 !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: white !important;
+    -webkit-transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-out;
+    -ms-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+}
+a:hover{
+    color: orange !important;
+}

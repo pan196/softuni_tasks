@@ -1,0 +1,117 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("formBackground.jpg")
+}
+input, textarea{
+    display: block;
+    width: 270px;
+    height: 25px;
+    padding-right: -20px;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+
+.notBlock{
+    display: inline;
+    width: initial;
+    float: none;
+    margin-top: 10px;
+}
+.notBlock:focus{
+    background-color: #eaeaea;
+}
+.block{
+    display: block;
+}
+ textarea{
+     height: 150px;
+     float: right;
+ }
+textarea:focus{
+     background-color: #eaeaea;
+ }
+
+ form{
+     width: 450px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ } 
+
+.nameValue{
+    border: 1px solid white;
+    width: 410px;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.nameValue>input{
+    float: right;
+}
+#textDiv{
+    width: 410px;
+    height: 170px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid white;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.padProblem {
+    display: inline-block;
+    padding-top: 7px;
+}
+
+.radioValue{
+    height: 70px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.35);
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: #04152f;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.steps{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img{
+    width: 24px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+}
+
+form div:nth-of-type(10) input:nth-of-type(1){
+    margin-left: 20px;
+}

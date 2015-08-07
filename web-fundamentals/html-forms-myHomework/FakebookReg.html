@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fakebook Registration</title>
+		<meta charset="ISO-8859-1">		
+	</head>
+	<body  color="#fff">		
+		<div style="position: relative;	background-color: #3b5997; width: 70%; height: 70%;" color="#fff">
+			<img src="fakebook.jpg" style="display: block; margin-right: auto; margin-left: auto;">
+			<form method="post" action="form.php">
+				<div style="display: inline-block; width: 40%;" border="1px">
+					<fieldset style="border-radius: 10px;">
+						<legend style="color: #fff" align="center">None Important Information</legend>
+						<input type="text" name="custName" value="First Name"  style="width: 48%; border-radius: 5px;" tabindex="1"/>
+						<input type="text" name="custLast" value="Last Name" style="width: 48%; border-radius: 5px;" tabindex="2"/>
+						<input type="email" name="yourEmail" value="Your Email" style="width: 48%; border-radius: 5px;" tabindex="4"/>
+						<input type="tel" name="yourPhone" value="Phone Number" style="width: 48%; border-radius: 5px;" tabindex="3"/>
+						<input type="password" name="pass" value="Your Password" style="width: 48%; border-radius: 5px;" tabindex="6"/>
+						<input type="url" name="site" value="Website" style="width: 48%; border-radius: 5px;" tabindex="5/><br/>
+						<span style="color: #fff;">Birthday</span><br/>
+						<input type="datetime-local" value="05/09/2014 01:58 PM" style="width: 74%; border-radius: 5px;"/><br/>
+						<input type="radio" name="isMale" id="male" value="male"/><label for="male" style="color: #fff">Male</label>
+						<input type="radio" name="isMale" id="fimale" value="fimale"/><label for="fimale" style="color: #fff">Fimale</label>
+						<input type="radio" name="isMale" id="other" value="3"/><label for="other" style="color: #fff">Other</label>
+						<br/>
+						<br/><br/>
+					</fieldset>
+				</div>	
+				<div style="display: inline-block; width: 58%;">
+					<fieldset style="border-radius: 10px;">
+						<legend style="color: #fff" align="center">Important Information *required</legend>
+						<select  style="width: 30%;  border-radius: 5px;" required>
+							<option value="Value 1">Country</option>
+							<option value="Value 2">Bulgaria</option>
+							<option value="Value 3">USA</option>
+						</select>
+						<input type="text" name="village" value="Village"  style="width: 30%; border-radius: 5px;" required/>
+						<input type="text" name="district" value="District"  style="width: 30%; border-radius: 5px;" required/><br/>
+						<input type="text" name="str" value="Street"  style="width: 31%; border-radius: 5px;" required/>
+						<input type="text" name="nr" value="Nr"  style="width: 15%; border-radius: 5px;" required/>
+						<input type="text" name="fl" value="Floor"  style="width: 15%; border-radius: 5px;" required/>
+						<input type="text" name="district" value="Ap Nr"  style="width: 15%; border-radius: 5px;" required/><br/>
+						<span style="color: #fff;">Door color</span><br/>
+						<input type="color" name="door" value="pink"  style="width: 30%; border-radius: 5px;" required/>
+						<input type="text" name="water" value="Water Meter Nr"  style="width: 30%; border-radius: 5px;" required/>
+						<select  style="width: 30%; border-radius: 5px;" required>
+							<option value="Value 1">Aunt Panties Size</option>
+							<option value="Value 1">Uncle Panties Size</option>
+						</select><br/>
+						<span style="color: #fff" required>More personal information</span><br/>
+						<textarea  style="width: 96%; height: 55px; border-radius: 5px;" required>Give us more information!!!</textarea>
+					</fieldset>
+				</div>
+				<div style="display: inline-block; width: 40%;">
+					<button style="width: 99%; height: 50px; margin-left: 2px; margin-top: 10px; background-color: #dddddd; border-radius: 10px;"><b style="font-size: 1.5em; color: #47597f;">Clear Form</button>
+				</div>
+				<div style="display: inline-block; width: 58%;">
+					<button  style="width: 99.5%; height: 50px; margin-left: 2px; margin-top: 10px; margin-bottom: 20px; border-radius: 10px;"><b style="vertical-align: middle; color: #47597f; font-size: 1.5em;">Register</b></button>
+				</div>
+			</form>			
+		</div>
+	</body>
+</html>

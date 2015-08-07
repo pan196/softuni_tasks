@@ -1,0 +1,81 @@
+﻿html, body {
+    font-family: Arial;
+    height: 100%;
+}
+header ul{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding: 20px 5px;
+}
+header ul li {
+    height: 100%;
+    list-style-type: none;
+    display: inline;
+    padding: 20px 20px !important;
+    margin-top: 10px !important;
+    cursor: pointer;
+    
+}
+
+header ul li:hover {
+    background-color: limegreen;
+}
+
+header{
+    background-color: green;
+    font-size: 16px;
+    color: white;
+}
+
+.container{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+button{
+    padding: 7px 14px !important;
+    background-color: white;
+    border-radius: 5px;
+}
+
+section{
+    margin-bottom: 50px !important;
+}
+
+footer{
+    padding-top: 50px;
+}
+
+aside li{
+    list-style-type: none;
+    padding: 7px 6px;
+    text-align: center;
+    border-bottom: 1px solid green;
+    cursor: pointer;
+}
+aside li:nth-last-of-type(1){
+    border-bottom: none;
+}
+aside li:nth-of-type(1){
+    background-color: green;
+    color: white;
+}
+aside ul{
+    border: 1px solid green;
+    padding-left: 0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+aside ul li:hover{
+    background-color: green;
+    color: white;
+}
+footer{
+    border-top: 1px solid gray;
+    margin-top: 20px;
+}
+
+.divest {
+    margin-top: 20px !important;
+}

@@ -1,0 +1,251 @@
+﻿$mainBorder: 2px solid gray;
+$subBorder: 1px solid gray;
+
+@mixin mainTitle{
+    width: 30%;
+    text-decoration: underline;
+    margin: 15px auto;
+    text-align: center;
+}
+
+@mixin mainFrame {
+    border: $mainBorder;
+    width: 96%;
+    margin: 0 auto;
+}
+@mixin subFrame{
+    border: $subBorder;
+    width: 96%;
+    margin: 0 auto;
+}
+
+@mixin gradient($from, $to) {
+  /* fallback/image non-cover color */
+  background-color: $from;
+ 
+  /* Firefox 3.6+ */
+  background-image: -moz-linear-gradient($from, $to);
+ 
+  /* Safari 4+, Chrome 1+ */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
+ 
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -webkit-linear-gradient($from, $to);
+ 
+  /* Opera 11.10+ */
+  background-image: -o-linear-gradient($from, $to);
+}
+
+@mixin gradientLeft($from, $to) {
+  /* fallback/image non-cover color */
+  background-color: $from;
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: linear-gradient(to right, $from, $to);
+}
+
+@mixin gradientD($from, $to) {
+  /* fallback/image non-cover color */
+  background-color: $from;
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: linear-gradient(135deg, $from, $to);
+}
+
+@mixin gradientRadial($from, $to) {
+  /* fallback/image non-cover color */
+  background-color: $from;
+ 
+  /* Firefox 3.6+ */
+  background-image: -moz-radial-gradient($from, $to);
+ 
+  /* Safari 4+, Chrome 1+ */
+  background-image: -webkit-gradient(radial, 0% 0%, 0% 100%, from($from), to($to));
+ 
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -webkit-radial-gradient($from, $to);
+ 
+  /* Opera 11.10+ */
+  background-image: -o-radial-gradient($from, $to);
+}
+
+body{
+    min-height: 100%;
+    width: 920px;
+    color: gray;
+    font-family: Arial;
+    margin: 5px auto;
+    header{
+        @include mainFrame;
+        height: 150px;
+        h1{
+            width: 40%;
+            margin: 10px auto 20px;
+            text-align: center;
+        }
+        ul{
+            width: 500px;
+            padding-left: 0;
+            font-size: 0;
+            margin-left: auto;
+            margin-right: auto;
+            li{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                width: 100px;
+                text-align: center;
+                font-size: initial;
+                list-style: none;
+                display: inline-block;
+                border: $mainBorder;
+                margin-right: 100px;
+                box-sizing: border-box;
+                &:hover{
+                    cursor: pointer;
+                    color: white;
+                    @include gradient(gray, white);
+                }
+            }
+            
+            li:nth-of-type(3){
+                margin-right: 0;
+            }
+        }
+    }
+    main{
+        @include mainFrame;
+        margin-top: 10px;
+        h5{
+            @include mainTitle;
+        }
+        section:nth-of-type(1){
+            .colorDivs:nth-of-type(1){
+                margin-left: 22px;
+                @include gradient(purple, white);
+            }
+            .colorDivs:nth-of-type(2){
+                @include gradient(blue, white);
+            }
+            .colorDivs:nth-of-type(3){
+                @include gradient(green, white);
+            }
+            .colorDivs:nth-of-type(4){
+                @include gradient(yellow, white);
+            }
+            .colorDivs:nth-of-type(5){
+                @include gradient(orange, white);
+            }
+            .colorDivs:nth-of-type(6){
+                margin-right: 22px;
+                @include gradient(red, white);
+            }
+        }
+        section:nth-of-type(2){
+            .colorDivs:nth-of-type(1){
+                margin-left: 22px;
+                @include gradientLeft(purple, white);
+            }
+            .colorDivs:nth-of-type(2){
+                @include gradientLeft(blue, white);
+            }
+            .colorDivs:nth-of-type(3){
+                @include gradientLeft(green, white);
+            }
+            .colorDivs:nth-of-type(4){
+                @include gradientLeft(yellow, white);
+            }
+            .colorDivs:nth-of-type(5){
+                @include gradientLeft(orange, white);
+            }
+            .colorDivs:nth-of-type(6){
+                margin-right: 22px;
+                @include gradientLeft(red, white);
+            }
+        }
+        section:nth-of-type(3){
+            .colorDivs:nth-of-type(1){
+                margin-left: 22px;
+                @include gradientD(purple, white);
+            }
+            .colorDivs:nth-of-type(2){
+                @include gradientD(blue, white);
+            }
+            .colorDivs:nth-of-type(3){
+                @include gradientD(green, white);
+            }
+            .colorDivs:nth-of-type(4){
+                @include gradientD(yellow, white);
+            }
+            .colorDivs:nth-of-type(5){
+                @include gradientD(orange, white);
+            }
+            .colorDivs:nth-of-type(6){
+                margin-right: 22px;
+                @include gradientD(red, white);
+            }
+        }
+    }
+    #radial{        
+        @include mainFrame;
+        margin-top: 10px;
+        h5{
+            @include mainTitle;            
+        }
+
+        .colorDivs:nth-of-type(1){
+                    margin-left: 22px;
+                    margin-top: 20px;
+                    @include gradientRadial(purple, white);
+                }
+                .colorDivs:nth-of-type(2){
+                    @include gradientRadial(blue, white);
+                }
+                .colorDivs:nth-of-type(3){
+                    @include gradientRadial(green, white);
+                }
+                .colorDivs:nth-of-type(4){
+                    @include gradientRadial(yellow, white);
+                }
+                .colorDivs:nth-of-type(5){
+                    @include gradientRadial(orange, white);
+                }
+                .colorDivs:nth-of-type(6){
+                    margin-right: 22px;
+                    @include gradientRadial(red, white);
+                }
+
+        }
+    footer{
+        @include mainFrame;
+        margin-top: 10px;
+        h5{
+            @include mainTitle;
+            
+        }
+        
+    }
+}
+
+section{
+    @include subFrame;
+    margin-bottom: 20px;
+}
+h6{
+    text-align: center;
+    margin: 20px 0;
+
+}
+p{
+    text-align: center;
+    font-size: 11px;
+}
+
+.colorDivs{
+    font-size: 0;
+    height: 130px;
+    width: 130px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}

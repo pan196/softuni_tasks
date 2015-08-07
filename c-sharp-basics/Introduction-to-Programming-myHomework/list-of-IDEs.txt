@@ -1,0 +1,15 @@
+1. Visual Studio
+Visual Studio has an advantage when it comes to programming. This IDE is mostly used by corporate programmers to produce .NET code.VS has Intellisense (suggestion box that appears when someone start typing), automatic code formatting and many others facilities.
+
+2. Eclipse
+Eclipse is an integrated development environment written mostly in Java.The advantages
+are that this IDE is completely free and also is not restricted by Microsoft and their operating system. In other words. With Eclipse you can use Linux as operating system for your developing endeavors.
+
+3. Aptana Studio
+If web and scripting languages are more of your style, Aptana is well suited for the task. PHP, Ruby on Rails, and Python are supported as well as the likes of Adobe AIR. Even the studio itself is available as a plugin for Eclipse if you prefer the way Aptana handles your work and want to combine it with a more comprehensive IDE. Aptana Studio 3 is free and available solely under the GNU General Public License .
+
+4. Notepad++
+Notepad++ is a text editor and source code editor for Windows. It aims to be a lightweight and robust editor for a variety of programming and scripting languages. One advantage of Notepad++ over the built-in Windows text editor Notepad, is that Notepad++ supports tabbed editing, which allows working with multiple open files in a single window. Notepad++ is a free and easy to use software.
+
+5. Netbeans
+NetBeans is also IDE for developing primarily with Java, but also with other languages, in particular PHP, C/C++, and HTML5. It is also an application platform framework for Java desktop applications and others. NetBeans also can run in different operating systems like Linux, Windows, Solaris and OS X.
